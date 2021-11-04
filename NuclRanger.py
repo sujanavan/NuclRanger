@@ -36,7 +36,7 @@ res = list(groupc(list_of_numbers))
 print("Grouped list is : " + str(res))
 
 #writing pitput to file
-output_file_pointer = open(input_file+".output", "a")
+output_file_pointer = open(input_file+".output", "w")
 for row in res:
 	print(str(row[0])+'\t'+str(row[1]))
 	output_file_pointer.write(str(row[0])+'\t'+str(row[1])+'\n')
