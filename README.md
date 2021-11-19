@@ -10,3 +10,5 @@ Usage:-
 python NuclRanger.py input_file_name
 
 Check out the sample input and output files
+
+NOTE: sys* files are not related to this project
